@@ -2,7 +2,7 @@ var helper = require('./legend');
 
 module.exports = function(){
 
-  var scale = d3.scale.linear(),
+  var scale = d3.scaleLinear(),
     shape = "path",
     shapeWidth = 15,
     shapeHeight = 15,
